@@ -38,7 +38,32 @@ body, p, h1, h2, h3, h4, h5 {
    margin-bottom:10px;
  }
 
+ .box2 {
+   background-color: black;
+   color: white;
+   padding: 85px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
 
+ .box3 {
+   background-color: black;
+   color: white;
+   padding: 40px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+ .box4 {
+   background-color: black;
+   color: white;
+   padding: 50px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
 
 /* ---Mobile Library Grid Styles--- */
 
