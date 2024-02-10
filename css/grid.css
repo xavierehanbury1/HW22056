@@ -29,8 +29,21 @@ img, embed, object, video, picture {
     display: none;
  }
  
- .box {
+ .box1 {
    background-color: black;
+   grid-column-start: 1;
+   grid-column-end: 4;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom:10px;
+ }
+
+ .box1b {
+   background-color: black;
+   grid-column-start: 4;
+   grid-column-end: 5;
    color: white;
    padding: 20px;
    text-align: center;
@@ -47,7 +60,7 @@ img, embed, object, video, picture {
    margin-bottom: 10px;
  }
 
- .box3 {
+ .box3a1 {
    background-color: black;
    color: white;
    padding: 40px;
@@ -56,7 +69,26 @@ img, embed, object, video, picture {
    margin-bottom: 10px;
  }
 
- .box4 {
+ .box3a2 {
+   background-color: black;
+   color: white;
+   padding: 40px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+ .box3b {
+   background-color: black;
+   color: white;
+   padding: 40px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+
+ .box4a {
    background-color: black;
    color: white;
    padding: 50px;
@@ -64,6 +96,62 @@ img, embed, object, video, picture {
    margin-top: 10px;
    margin-bottom: 10px;
  }
+
+ .box4b {
+   background-color: black;
+   color: white;
+   padding: 50px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+ .box4c{
+   background-color: black;
+   color: white;
+   padding: 50px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+ .box4d{
+   background-color: black;
+   color: white;
+   padding: 50px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+ 
+ .box4e{
+   background-color: black;
+   color: white;
+   padding: 50px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+ 
+ .box4f{
+   background-color: black;
+   color: white;
+   padding: 50px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+ .box4g {
+   background-color: black;
+   color: white;
+   padding: 50px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   display: none; 
+ }
+ 
  
  /* ---Mobile Library Grid Styles--- */
  
@@ -106,6 +194,68 @@ img, embed, object, video, picture {
  /* ---Tablet Library Grid Styles--- */
 
 @media screen and (min-width: 768px) { 
+
+.box1 {
+   grid-column-start: 1;
+   grid-column-end: 3; 
+}
+
+.box1b {
+    grid-column-start: 3;
+    grid-column-end: 13; 
+ }
+
+   
+ .box2 { grid-column-start: 1;
+   grid-column-end: 13;
+ }
+
+ .box3a1 {
+   grid-column-start: 1;
+   grid-column-end: 7;
+ }
+
+ .box3a2 {
+   grid-column-start: 7;
+   grid-column-end: 13;
+ }
+
+ .box3b {
+   grid-column-start: 1;
+   grid-column-end: 13;
+ }
+
+ .box4a {
+   grid-column-start: 1;
+   grid-column-end: 5;
+ }
+
+ .box4b {
+   grid-column-start: 5;
+   grid-column-end: 9;
+ }
+ 
+ .box4c {
+   grid-column-start: 9;
+   grid-column-end: 13;
+ }
+
+ .box4d {
+   grid-column-start: 1;
+   grid-column-end: 5;
+ }
+ 
+ .box4e {
+   grid-column-start: 5;
+   grid-column-end: 9;
+ }
+ 
+ .box4f {
+   grid-column-start: 9;
+   grid-column-end: 13; 
+ }
+
+
 
 
 .grid-con { 
@@ -163,6 +313,75 @@ img, embed, object, video, picture {
  
  @media screen and (min-width: 1200px) { 
  
+
+   .box1 {
+      grid-column-start: 1;
+      grid-column-end: 3; 
+   }
+
+   .box1b {
+      grid-column-start: 3;
+      grid-column-end: 13; 
+   }
+
+   
+ .box2 { grid-column-start: 1;
+   grid-column-end: 13;
+ }
+
+ .box3a1 {
+   grid-column-start: 1;
+   grid-column-end: 7;
+ }
+
+ .box3a2 {
+   grid-column-start: 7;
+   grid-column-end: 13;
+ }
+
+ .box3b {
+   grid-column-start: 1;
+   grid-column-end: 13;
+ }
+
+ .box4a {
+   grid-column-start: 1;
+   grid-column-end: 4;
+ }
+
+ .box4b {
+   grid-column-start: 4;
+   grid-column-end: 7;
+ }
+ 
+ .box4c {
+   grid-column-start: 7;
+   grid-column-end: 10;
+ }
+
+ .box4d {
+   grid-column-start: 10;
+   grid-column-end: 13;
+ }
+ 
+ .box4e {
+   grid-column-start: 1;
+   grid-column-end: 4;
+   display: inline-block;
+ }
+ 
+ .box4f {
+   grid-column-start: 10;
+   grid-column-end: 13; 
+   display: inline-block;
+ }
+
+ .box4g {
+   grid-column-start: 4;
+   grid-column-end: 10; 
+   display: inline-block; 
+ }
+
     .grid-con { 
        display: grid; 
        grid-template-columns: repeat(12, minmax(0, 1fr));
